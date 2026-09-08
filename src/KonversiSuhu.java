@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Rumus: F = C * 9 / 5 + 32
 public class KonversiSuhu {
     public static void main(String[] args) {
 
@@ -11,5 +11,9 @@ public class KonversiSuhu {
 
         //Celcius ke Farenheit
         double farenheit = celcius * 9 / 5 + 32;
+
+        System.out.println("Suhu Farenheit: " + farenheit);
+
+        input.close();
     }
 }
