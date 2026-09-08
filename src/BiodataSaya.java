@@ -6,6 +6,7 @@ public class BiodataSaya {
         System.out.print("NIM: 2025573010136");
 
         //Menampilkan program studi
+        System.out.println();
         System.out.println("Program Studi: Teknik Informatika");
     }
 }
